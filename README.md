@@ -35,12 +35,9 @@ Copiar código
 TELEGRAM_BOT_TOKEN = '7331837186:AAHPnnzoQadXS_cmvvXQz7-3uFiFK1eUFm0'
 CHAT_ID = '5106263363'
 
-# Directories
-IMAGES_DIRECTORY = 'C:/Users/ameri/OneDrive/Escritorio/ICSP/Automa_Intento_3/Automa_Intento_3/capturas_finales'
-Uso
+# Uso
 Ejecutar el Script Principal
 Ejecuta el script principal para comenzar a analizar las imágenes y enviar notificaciones a Telegram:
 
-sh
 Copiar código
-python main.py
+### python main.py
