@@ -9,8 +9,8 @@ Este proyecto analiza imágenes en un directorio específico y envía notificaci
 Clona el repositorio en tu máquina local:
 
 
-'git clone <URL_DEL_REPOSITORIO>'
-'cd <NOMBRE_DEL_REPOSITORIO>'
+git clone <URL_DEL_REPOSITORIO>
+cd <NOMBRE_DEL_REPOSITORIO>
 2. Crear y Activar un Entorno Virtual
 Es recomendable crear un entorno virtual para manejar las dependencias del proyecto:
 
@@ -40,4 +40,4 @@ Ejecutar el Script Principal
 Ejecuta el script principal para comenzar a analizar las imágenes y enviar notificaciones a Telegram:
 
 Copiar código
-'python main.py'
+ 'python main.py'
