@@ -8,6 +8,37 @@ Este proyecto analiza imágenes en un directorio específico y envía notificaci
 
 Clona el repositorio en tu máquina local:
 
-```sh
+
 git clone <URL_DEL_REPOSITORIO>
 cd <NOMBRE_DEL_REPOSITORIO>
+
+
+# Crear y Activar un Entorno Virtual
+Es recomendable crear un entorno virtual para manejar las dependencias del proyecto:
+
+## Copiar código
+python -m venv .venv
+source .venv/bin/activate  # En Windows usa `.venv\Scripts\activate`
+
+
+# Instalar las Dependencias
+Instala las dependencias necesarias usando el archivo requirements.txt:
+
+## Copiar código
+pip install -r requirements.txt
+
+# Configurar tus Credenciales y Rutas
+Edita el archivo config.py para configurar tus credenciales de Telegram y la ruta de las imágenes:
+
+# Configuración del Bot de Telegram
+TELEGRAM_BOT_TOKEN = 'TU TOKEN DE TU BOT DE TELEGRAM'
+CHAT_ID = 'TU CHAT ID'
+
+# Directorios
+IMAGES_DIRECTORY = 'ruta/al/directorio/de/imagenes'
+Uso
+Ejecutar el Script Principal
+Ejecuta el script principal para comenzar a analizar las imágenes y enviar notificaciones a Telegram:
+
+# Copiar código
+python main.py
